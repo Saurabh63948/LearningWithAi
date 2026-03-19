@@ -8,3 +8,19 @@ wheels/
 
 # Virtual environments
 .venv
+venv/
+
+# Environment variables (VERY IMPORTANT)
+.env
+.env.*
+
+# Uploads & local storage
+uploads/
+learning_mem/
+
+# Database files
+*.sqlite3
+
+# OS files
+.DS_Store
+Thumbs.db
